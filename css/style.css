@@ -1,0 +1,42 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+body {
+	background-color:#F7F7F7;
+	color: #494949;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+nav {
+  margin: 0 0 20px 0;
+  background-color: #7E08D2;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+}
+
+
+
+
+h1 {
+	color: #ffffff;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+h2 {
+	font-size: 1.3em;
+	padding: 10px;
+}
+
+.content {
+	padding-top: 50px;;
+}
+
+.route {
+	padding: 5px;
+	border: solid #AAAAAA .5px;
+}
+
