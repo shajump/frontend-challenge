@@ -21,6 +21,7 @@ nav {
 h1 {
 	color: #ffffff;
 	font-size: 1.3em;
+	text-align: center;
 }
 
 h2 {
@@ -28,11 +29,11 @@ h2 {
 	padding: 10px;
 }
 .station {
-	float: center;
+	width: 87%;
 }
 
 .fa-arrow-left {
-	width: 15%;
+	width: 5%;
 }
 
 
@@ -43,11 +44,11 @@ h2 {
 }
 .fa-bars {
 	float:right;
-	margin-top: 5px;
+	margin-top: 4px;
 }
 
 .Bus {
-	font-size: 1.4em;
+	font-size: 1.3em;
 	font-weight: bold;
 	width: 8%;
 }
@@ -57,7 +58,7 @@ h2 {
 }
 
 .Direction {
-	margin-top: 10px;
+	margin-top: 15px;
 	text-align: center;
 }
 
@@ -86,6 +87,7 @@ h2 {
 
 
 .route {
+	background-color: #F9F9F9;
 	padding: 10px;
 	border: solid #AAAAAA .5px;
 }
