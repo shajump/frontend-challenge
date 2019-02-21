@@ -18,25 +18,51 @@ nav {
 }
 
 
-
-
 h1 {
 	color: #ffffff;
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 1.3em;
 }
 
 h2 {
-	font-size: 1.3em;
+	font-size: 1.2em;
 	padding: 10px;
+}
+
+.Bus {
+	font-size: 1.5em;
+	font-weight: bold;
+	width: 15%;
 }
 
 .content {
 	padding-top: 50px;;
 }
 
-.route {
-	padding: 5px;
-	border: solid #AAAAAA .5px;
+
+.Bus, .Destination, .Frequency {
+	display: inline-block;
+	align-content: space-between;
 }
 
+.Destination {
+	margin-left: 20px;
+}
+.Frequency {
+	font-weight: bold;
+	float: right;
+	margin-top: 7px;
+}
+
+.hamburger-menu span {
+	background: #7E08D2;
+	width: 40px;
+	height: 5px;
+	display: block;
+	margin-bottom: 2px;
+}
+
+.route {
+	padding: 10px;
+	border: solid #AAAAAA .5px;
+}
