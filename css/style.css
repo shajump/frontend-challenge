@@ -7,95 +7,115 @@ body {
 	background-color:#F7F7F7;
 	color: #494949;
 	font-size: 16px;
-	font-family: sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
+
+
 nav {
-  margin: 0 0 20px 0;
-  background-color: #7E08D2;
-  padding: 15px;
+  
+  margin: 0 auto;
+  background-color: #5D1DAF;
+  padding: 40px 15px 15px 15px;
   position: fixed;
+  text-align: center;
   width: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
 }
 
 
 h1 {
 	color: #ffffff;
 	font-size: 1.3em;
-	text-align: center;
 }
 
 h2 {
 	font-size: 1.3em;
 	padding: 10px;
 }
-.station {
-	width: 87%;
+
+.bus {
+	font-weight: bold;
+	font-size: 1.8em;
+	float: left;
+
+}
+
+.bus, .destination, .direction, .frequency, .fa-angle-right {
+	display: inline-block;
+}
+
+.content {
+	padding-top: 75px;
+}
+
+
+.frequency {
+	font-weight: bold;
+	max-width: 50px;
 }
 
 .fa-arrow-left {
-	width: 5%;
+	float: left;
 }
 
-
-
-.fa-arrow-left, .station, .fa-bars {
+.fa-arrow-left, h1, .fa-bars {
 	color: white;
 	display: inline-block;
 }
+
 .fa-bars {
 	float:right;
 	margin-top: 4px;
 }
 
-.Bus {
-	font-size: 1.3em;
-	font-weight: bold;
-	width: 8%;
-}
-
-.content {
-	padding-top: 50px;;
-}
-
-.Direction {
-	margin-top: 15px;
-	text-align: center;
-}
-
-.Bus, .Destination, .Frequency {
-	display: inline-block;
-}
-
-.Destination {
-	margin-left: 20px;
-	margin-bottom: 5px;
-}
-.Frequency {
-	font-weight: bold;
-	float: right;
-	margin-right: 10px;
-	margin-top: 4px;
-}
 .fa-angle-right {
 	color: #494949;
 	float: right;
-	margin-top: 5px;
+	font-size: 1.4em;
 }
+
+
+.bottom-navbar {
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	position: fixed;
+	bottom: 0;
+}
+
+.route {
+	background-color: #F9F9F9;
+	padding: 20px;
+	border-bottom: solid #AAAAAA .5px;
+	max-height: 60px;
+}
+
+.out-of-service {
+	background-color: #FF7F7F;
+}
+
+.reroute {
+	background-color: #FFFF7F;
+}
+
+.status-bar {
+	z-index: 2;
+	position: fixed;
+ 	top: 0;
+	width: 100%;
+	text-align: right;
+	background-color: rgba(0, 0, 0, .4);
+}
+
 .route:hover {
 	background-color: #aaa;
 }
 
-
-.route {
-	background-color: #F9F9F9;
-	padding: 10px;
-	border: solid #AAAAAA .5px;
-}
-
-
 @media screen and (min-width: 575px) {
 	.route {
 		display: inline-block;
-		width: 46%;
+		width: 47%;
 		margin: 1%;
 		}
+}
+
