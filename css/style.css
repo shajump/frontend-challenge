@@ -38,6 +38,7 @@ h2 {
 	font-size: 1.8em;
 	float: left;
 	width: 20%;
+	padding-top: 7px;
 }
 
 .bus, .frequency, .fa-angle-right {
@@ -53,17 +54,21 @@ h2 {
 	width: 50%;
 	display: inline-block;
 	line-height: 1.3;
+	float: left;
+}
+
+.next-bus, .frequency {
+	display: inline-block;
+	padding-top: 3px;
 }
 
 .direction {
 	font-style: italic;
-	font-weight: bold;
 }
+
 .frequency {
-	font-weight: bold;
-	font-size: 1.2em;
-	text-align: center;
-	width: 25%;
+	width: 30%;
+	font-size: .9em;
 }
 
 .fa-arrow-left {
@@ -83,9 +88,9 @@ h2 {
 .fa-angle-right {
 	color: #494949;
 	float: right;
-	font-size: 1.4em;
+	font-size: 1.3em;
 	position: relative;
-	top: -20px;	
+	top: -20px;
 }
 
 
@@ -101,7 +106,13 @@ h2 {
 	background-color: #F9F9F9;
 	padding: 15px;
 	border-bottom: solid #AAAAAA .5px;
-	max-height: 70px;
+	height: 70px;
+}
+
+.next-bus {
+	font-size: 1.2em;
+	font-weight: bold;
+	width: 25%;
 }
 
 .out-of-service {
