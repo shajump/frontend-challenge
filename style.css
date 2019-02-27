@@ -1,0 +1,132 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+body {
+	background-color:#F7F7F7;
+	color: #494949;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+nav {
+  
+  margin: 0 auto;
+  background-color: #5D1DAF;
+  padding: 40px 15px 15px 15px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+
+h1 {
+	color: #ffffff;
+	font-size: 1.3em;
+}
+
+h2 {
+	font-size: 1.3em;
+	padding: 10px;
+}
+
+.bus {
+	font-weight: bold;
+	font-size: 1.8em;
+	float: left;
+	width: 20%;
+}
+
+.bus, .frequency, .fa-angle-right {
+	display: inline-block;
+}
+
+.content {
+	padding-top: 75px;
+	margin-bottom: 55px;
+}
+
+.destination, .direction {
+	width: 50%;
+	display: block;
+}
+
+.direction {
+	font-style: italic;
+	font-weight: bold;
+}
+.frequency {
+	font-weight: bold;
+	width: 20%;
+}
+
+.fa-arrow-left {
+	float: left;
+}
+
+.fa-arrow-left, h1, .fa-bars {
+	color: white;
+	display: inline-block;
+}
+
+.fa-bars {
+	float:right;
+	margin-top: 4px;
+}
+
+.fa-angle-right {
+	color: #494949;
+	float: right;
+	font-size: 1.4em;
+	position: relative;
+	top: -20px;	
+}
+
+
+.bottom-navbar {
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	position: fixed;
+	bottom: 0;
+}
+
+.route {
+	background-color: #F9F9F9;
+	padding: 15px;
+	border-bottom: solid #AAAAAA .5px;
+	max-height: 70px;
+}
+
+.out-of-service {
+	color: red;
+}
+
+.reroute {
+	color: #FF8A42;
+}
+
+.status-bar {
+	z-index: 2;
+	position: fixed;
+ 	top: 0;
+	width: 100%;
+	text-align: right;
+	background-color: rgba(0, 0, 0, .4);
+}
+
+.route:hover {
+	background-color: #aaa;
+}
+
+@media screen and (min-width: 575px) {
+	.route {
+		display: inline-block;
+		width: 48%;
+		margin: .5%;
+		}
+}
+
