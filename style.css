@@ -38,10 +38,9 @@ h2 {
 	font-size: 1.8em;
 	float: left;
 	width: 20%;
-
 }
 
-.bus, .destination, .direction, .frequency, .fa-angle-right {
+.bus, .frequency, .fa-angle-right {
 	display: inline-block;
 }
 
@@ -52,6 +51,7 @@ h2 {
 
 .destination, .direction {
 	width: 50%;
+	display: block;
 }
 
 .direction {
@@ -96,7 +96,7 @@ h2 {
 
 .route {
 	background-color: #F9F9F9;
-	padding: 20px;
+	padding: 15px;
 	border-bottom: solid #AAAAAA .5px;
 	max-height: 70px;
 }
