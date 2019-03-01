@@ -12,7 +12,6 @@ body {
 
 
 nav {
-  
   margin: 0 auto;
   background-color: #5D1DAF;
   padding: 40px 15px 15px 15px;
@@ -28,16 +27,19 @@ h1 {
 	font-size: 1.3em;
 }
 
-h2 {
+.arrow {
+	color: #494949;
+	float: right;
 	font-size: 1.3em;
-	padding: 10px;
+	position: relative;
+	top: -12px;
 }
 
 .bus {
 	font-weight: bold;
 	font-size: 1.8em;
 	float: left;
-	width: 20%;
+	width: 17%;
 	padding-top: 7px;
 }
 
@@ -48,6 +50,7 @@ h2 {
 .content {
 	padding-top: 75px;
 	margin-bottom: 55px;
+	
 }
 
 .destination, .direction {
@@ -59,7 +62,6 @@ h2 {
 
 .next-bus, .frequency {
 	display: inline-block;
-	padding-top: 3px;
 }
 
 .direction {
@@ -67,8 +69,8 @@ h2 {
 }
 
 .frequency {
-	width: 30%;
-	font-size: .9em;
+	width: 28%;
+	line-height: 1.5;
 }
 
 .fa-arrow-left {
@@ -83,14 +85,6 @@ h2 {
 .fa-bars {
 	float:right;
 	margin-top: 4px;
-}
-
-.fa-angle-right {
-	color: #494949;
-	float: right;
-	font-size: 1.3em;
-	position: relative;
-	top: -20px;
 }
 
 
@@ -139,8 +133,19 @@ h2 {
 @media screen and (min-width: 575px) {
 	.route {
 		display: inline-block;
-		width: 48%;
-		margin: .5%;
+		width: 46%;
+		margin: 0 1% 0 1%;
 		}
-}
+	.status-bar, .bottom-navbar {
+		display: none;
+		}
+	
+	nav {
+		padding: 15px;
+		}
+	.content {
+		padding-top: 50px;
+		}
+}	
+
 
