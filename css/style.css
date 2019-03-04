@@ -130,12 +130,12 @@ h1 {
 	background-color: #aaa;
 }
 
-@media screen and (min-width: 575px) {
+@media screen and (min-width: 775px) {
 	.route {
 		display: inline-block;
 		width: 46%;
 		margin: 0 1% 0 1%;
-		
+		vertical-align: top;
 		}
 	.status-bar, .bottom-navbar {
 		display: none;
