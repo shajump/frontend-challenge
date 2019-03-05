@@ -134,8 +134,10 @@ h1 {
 	.route {
 		display: inline-block;
 		width: 46%;
-		margin: 0 1% 0 1%;
+		margin: 1% 1.7% 1% 1.7%;
 		vertical-align: top;
+		
+		border: solid #AAAAAA .5px;
 		}
 	.status-bar, .bottom-navbar {
 		display: none;
